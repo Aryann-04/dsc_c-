@@ -20,35 +20,35 @@ main () {
         cout << "The minimum  value is:" << b << "\n";
     }
 
-    // cout <<"Enter a value of the first number:-";
-    // cin >> a;
+    cout <<"Enter a value of the first number:-";
+    cin >> a;
 
-    // if (0>a)
-    // {
-    //     cout << "This number is Negative \n";
-    // }
-    // else if (0<a)
-    // {
-    //     cout << "This number is Psitive \n";
-    // }
-    // else
-    // {
-    //     cout << "Number is Neutral";
-    // }
+    if (0>a)
+    {
+        cout << "This number is Negative \n";
+    }
+    else if (0<a)
+    {
+        cout << "This number is Positive \n";
+    }
+    else
+    {
+        cout << "Number is Neutral";
+    }
     
     
   
-    // cout <<"Enter maths marks:";
-    // cin >> a;
-    // cout <<"Enter english marks:";
-    // cin >>b;
-    // cout <<"Enter science marks:";10
-    // cin >>c;
+    cout <<"Enter maths marks:";
+    cin >> a;
+    cout <<"Enter english marks:";
+    cin >>b;
+    cout <<"Enter science marks:";
+    cin >>c;
 
-    // total= a+b+c;
-    // avg=total*100/300;
+    total= a+b+c;
+    avg=total*100/300;
 
-    // cout << "Total Average mark:" << avg <<"\n"; 
+    cout << "Total Average mark:" << avg <<"\n"; 
 
     return 0;
 }

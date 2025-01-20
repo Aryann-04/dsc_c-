@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-//*1*/
+    //*1*/
 
     int a;
     cout << "Please enter an int: ";
@@ -19,10 +19,7 @@ int main()
         cout << "The number " << a << " is odd." << "\n";
     }
 
-
-
-//*2*/
-
+    //*2*/
 
     int score;
 
@@ -58,34 +55,29 @@ int main()
         }
     }
 
+    // //*3*/
 
-//*3*/
+    int age;
 
+        cout << "Enter your age: ";
+        cin >> age;
 
-int age;
+        if (age >= 18) {
+            cout << "You are eligible to vote." << endl;
+        } else {
+            cout << "You are not eligible to vote." << endl;
+        }
 
-    cout << "Enter your age: ";
-    cin >> age;
+    //*4*/
 
-    if (age >= 18) {
-        cout << "You are eligible to vote." << endl;
-    } else {
-        cout << "You are not eligible to vote." << endl;
-    }
+    int year;
 
+        cout << "Enter a year: ";
+        cin >> year;
 
-//*4*/
-
-int year;
-
-    cout << "Enter a year: ";
-    cin >> year;
-
-    if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
-        cout << year << " is a leap year." << endl;
-    } else {
-        cout << year << " isn't a leap year." << endl;
-    }
-
-
+        if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
+            cout << year << " is a leap year." << endl;
+        } else {
+            cout << year << " isn't a leap year." << endl;
+        }
 }
